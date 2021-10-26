@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express();
 const routes = require('./routes/api.js');
 
-mongoose.connect("mongodb+srv://admin-Arunn:arunn123@cluster0.hcckn.mongodb.net/roughNote?retryWrites=true&w=majority",{useNewUrlParser : true});
+mongoose.connect("mongodb+srv://admin-Arunn:*********@cluster0.hcckn.mongodb.net/roughNote?retryWrites=true&w=majority",{useNewUrlParser : true});
 //mongoose.connect('mongodb://localhost:27017/mypro');
 
 app.use(express.json());
